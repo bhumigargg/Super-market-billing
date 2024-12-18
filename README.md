@@ -1,17 +1,29 @@
-# Super-market-billing
-Supermarket Billing System
-Description
-This is a simple supermarket billing system implemented in C++. The program allows users to:
+# Supermarket Billing System
 
--Add items to the inventory.
--Print a bill based on items purchased.
--Maintain and update the inventory in a text file (bill.txt).
-Features
--Add Item: Add an item to the inventory with its name, rate, and quantity.
--Print Bill: Generate a bill by selecting items and quantities from the inventory.
--File Handling: Inventory data is saved and updated in a file (bill.txt) to ensure data persistence.
--Session Management: The system ensures that inventory changes are reflected in real-time using temporary files.
-Prerequisites
-A C++ compiler (e.g., GCC, MinGW, or Visual Studio).
-Windows operating system (due to the use of windows.h for Sleep() and system("cls")).
-Administrator privileges if the file path D:\\bill.txt is restricted.
+A simple console-based billing system implemented in C++ to manage and generate bills for a supermarket. The program allows users to add items to inventory, process purchases, and generate bills dynamically.
+
+---
+
+## Features
+
+- **Add Items to Inventory**: Users can add items with their name, rate, and quantity.
+- **Print Bill**: Generate bills for purchased items and update the inventory accordingly.
+- **File Storage**: All inventory data is saved to a file for persistent storage.
+- **Dynamic Updates**: Automatically updates the inventory file after each transaction.
+
+---
+
+## Requirements
+
+- **Operating System**: Windows (due to `windows.h` and `Sleep()` usage)
+- **Compiler**: A C++ compiler (e.g., GCC, MSVC)
+- **Development Tools**: Any IDE or text editor supporting C++ (e.g., Code::Blocks, Visual Studio)
+
+---
+
+## Installation and Setup
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/bhumigargg/supermarket-billing-system.git
+   cd supermarket-billing-system
