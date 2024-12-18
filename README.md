@@ -25,5 +25,5 @@ A simple console-based billing system implemented in C++ to manage and generate 
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/bhumigargg/supermarket-billing-system.git
+   git clone https://github.com/bhumigargg/Super-market-billing.git
    cd supermarket-billing-system
